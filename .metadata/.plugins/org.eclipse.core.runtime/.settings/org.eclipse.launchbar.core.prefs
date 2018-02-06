@@ -1,9 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:MyApp,org.eclipse.launchbar.core.descriptorType.default\:HelloSpringApp,org.eclipse.launchbar.core.descriptorType.default\:SetterDemoApp
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:MyApp,org.eclipse.launchbar.core.descriptorType.default\:HelloSpringApp,org.eclipse.launchbar.core.descriptorType.default\:SetterDemoApp,org.eclipse.launchbar.core.descriptorType.default\:BeanScopeDemoApp,org.eclipse.launchbar.core.descriptorType.default\:BeanLifeCycleDemoApp,org.eclipse.launchbar.core.descriptorType.default\:AnnotationDemoApp
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:HelloSpringApp/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:HelloSpringApp/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:MyApp/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:MyApp/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SetterDemoApp/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SetterDemoApp/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
