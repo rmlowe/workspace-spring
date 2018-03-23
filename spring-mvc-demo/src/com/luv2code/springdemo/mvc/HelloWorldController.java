@@ -13,8 +13,10 @@ public class HelloWorldController {
 		return "helloworld-form";
 	}
 	
-	
-	
 	// need a controller method to process the HTTML form
 	
+	@RequestMapping("/processForm")
+	public String processForm() {
+		return "helloworld";
+	}
 }
