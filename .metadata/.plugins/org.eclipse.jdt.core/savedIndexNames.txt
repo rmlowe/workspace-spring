@@ -43,7 +43,6 @@ INDEX VERSION 1.130+/Users/robertlowe/Documents/workspace-spring/.metadata/.plug
 472439814.index
 17893011.index
 742767395.index
-831314516.index
 2366306081.index
 2689998812.index
 361021490.index
