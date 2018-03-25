@@ -18,6 +18,8 @@ public class StudentController {
 		// add student object to the model
 		theModel.addAttribute("student", theStudent);
 		
+		System.out.println("Showing form with " + theStudent);
+		
 		return "student-form";
 	}
 	
@@ -26,7 +28,7 @@ public class StudentController {
 		
 		// log the input data
 		System.out.println("theStudent: " + theStudent.getFirstName()
-							+ " " + theStudent.getLastName());
+							+ " " + theStudent.getLastName() + " " + theStudent);
 		
 		return "student-confirmation";
 	}
