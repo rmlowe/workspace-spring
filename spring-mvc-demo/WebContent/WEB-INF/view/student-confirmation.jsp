@@ -25,7 +25,7 @@ Favorite Language: ${student.favoriteLanguage}
 Operating Systems:
 
 <ul>
-	<c:forEach var="temp" items="$student.operatingSystems">
+	<c:forEach var="temp" items="${student.operatingSystems}">
 	
 		<li> ${temp} </li>
 	
