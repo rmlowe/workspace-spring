@@ -30,6 +30,14 @@
 		
 		<br><br>
 		
+		Operating Systems:
+		
+		Linux <form:checkbox path="operatingSystems" value="Linux" />
+		Mac OS <form:checkbox path="operatingSystems" value="Mac OS" />
+		MS Windows <form:checkbox path="operatingSystems" value="MS Window" />
+		
+		<br><br>
+		
 		Favorite Language:
 		
 		Java <form:radiobutton path="favoriteLanguage" value="Java" />
